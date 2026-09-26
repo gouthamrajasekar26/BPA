@@ -1,0 +1,42 @@
+{
+    "metadata": {
+        "system_name": "Bloodstain Pattern AI & Spatial Analysis System",
+        "case_number": "CASE-2026-4781",
+        "investigator_id": "FORENSIC-ANALYST-01",
+        "timestamp": "2026-09-17 23:45:03 UTC",
+        "schema_version": "1.0.0"
+    },
+    "deep_learning_spatter_analysis": {
+        "predicted_spatter_type": "Passive Drip Spatter",
+        "confidence_score": 0.699999988079071,
+        "categorical_probabilities": {
+            "Blunt Force / Beating Spatter": 0.10000000149011612,
+            "Passive Drip Spatter": 0.699999988079071,
+            "High-Velocity Impact Spatter (HVIS)": 0.05000000074505806,
+            "Medium-Velocity Impact Spatter (MVIS)": 0.15000000596046448
+        }
+    },
+    "computer_vision_droplet_metrics": {
+        "total_droplets_processed": 22,
+        "mean_droplet_width_mm": 11.02,
+        "mean_impact_angle_deg": 40.95,
+        "tail_clipping_factor_applied": 0.85
+    },
+    "spatial_3d_point_of_origin": {
+        "coordinates_xyz_cm": [
+            450.89,
+            347.24,
+            271.5
+        ],
+        "x_convergence_cm": 450.89,
+        "y_convergence_cm": 347.24,
+        "z_outward_depth_cm": 271.5,
+        "margin_of_error_cm": 376.95
+    },
+    "weapon_classification": {
+        "weapon_class_code": "Class III",
+        "weapon_description": "Class III: Swung / Cast-Off Weapon Mechanics (Linear Rhythmic Arcs)",
+        "rule_justification": "Linear rhythmic droplet spatial alignment (Linearity Score > 0.78) indicates cast-off force vector from a swung weapon.",
+        "inference_confidence": 0.91
+    }
+}
